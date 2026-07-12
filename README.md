@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/header.svg" width="100%" alt="Karar Tech ó Full-Stack ∑ Mobile ∑ AI"/>
+<img src="https://raw.githubusercontent.com/karartech/karartech/main/assets/header.svg" width="100%" alt="Karar Tech ù Full-Stack ù Mobile ù AI"/>
 
 <br/><br/>
 
@@ -11,7 +11,7 @@
 [![Website](https://img.shields.io/badge/Website-karartech.com-6366f1?style=for-the-badge&logo=google-chrome&logoColor=white)](https://karartech.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/karartech)
 [![Twitter](https://img.shields.io/badge/Twitter-@HaydarAl__karar-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/HaydarAl_karar)
-[![Email](https://img.shields.io/badge/Email-hello@karartech.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hello@karartech.com)
+[![Email](https://img.shields.io/badge/Email-Haydar.AlKararLLC@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Haydar.AlKararLLC@gmail.com)
 
 </div>
 
@@ -30,12 +30,12 @@ const developer = {
 };
 ```
 
-I'm a **full-stack developer** and founder of [**Karar Tech**](https://karartech.com) ó crafting polished web platforms, native mobile apps, and AI-powered experiences. From Islamic companion apps to student networks and education platforms, I build products that serve real communities.
+I'm a **full-stack developer** and founder of [**Karar Tech**](https://karartech.com) ù crafting polished web platforms, native mobile apps, and AI-powered experiences. From Islamic companion apps to student networks and education platforms, I build products that serve real communities.
 
 <br/>
 
 <div align="center">
-  <img src="assets/terminal.svg" width="700" alt="Animated terminal showcase"/>
+  <img src="https://raw.githubusercontent.com/karartech/karartech/main/assets/terminal.svg" width="700" alt="Animated terminal showcase"/>
 </div>
 
 <br/>
@@ -78,13 +78,13 @@ I'm a **full-stack developer** and founder of [**Karar Tech**](https://karartech
   <tr>
     <td width="50%" valign="top">
       <h3>?? Al-Kisa</h3>
-      <p>All-in-one Muslim companion app ó prayer times, Quran, Duas, guidance & travel tools.</p>
+      <p>All-in-one Muslim companion app ù prayer times, Quran, Duas, guidance & travel tools.</p>
       <p>
         <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black"/>
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
         <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white"/>
       </p>
-      <a href="https://alkisafoundation.org/">?? Website</a> ∑ <a href="https://apps.apple.com/app/id6743946715">App Store</a>
+      <a href="https://alkisafoundation.org/">?? Website</a> ù <a href="https://apps.apple.com/app/id6743946715">App Store</a>
     </td>
     <td width="50%" valign="top">
       <h3>?? ABSA Network</h3>
@@ -93,7 +93,7 @@ I'm a **full-stack developer** and founder of [**Karar Tech**](https://karartech
         <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
         <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white"/>
       </p>
-      <a href="https://www.absanetwork.com/">?? Website</a> ∑ <a href="https://apps.apple.com/us/app/absa-network/id6756297958">App Store</a>
+      <a href="https://www.absanetwork.com/">?? Website</a> ù <a href="https://apps.apple.com/us/app/absa-network/id6756297958">App Store</a>
     </td>
   </tr>
   <tr>
@@ -104,7 +104,7 @@ I'm a **full-stack developer** and founder of [**Karar Tech**](https://karartech
         <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black"/>
         <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white"/>
       </p>
-      <a href="https://apps.apple.com/app/salah-journal/id6747736982">App Store</a> ∑ <a href="https://play.google.com/store/apps/details?id=com.karartech.salahjournal">Play Store</a>
+      <a href="https://apps.apple.com/app/salah-journal/id6747736982">App Store</a> ù <a href="https://play.google.com/store/apps/details?id=com.karartech.salahjournal">Play Store</a>
     </td>
     <td width="50%" valign="top">
       <h3>? Scribe Clock</h3>
@@ -124,16 +124,16 @@ I'm a **full-stack developer** and founder of [**Karar Tech**](https://karartech
         <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black"/>
         <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
       </p>
-      <a href="https://apps.apple.com/app/shia+/id1511772373">App Store</a> ∑ <a href="https://play.google.com/store/apps/details?id=com.karartech.shiaplus">Play Store</a>
+      <a href="https://apps.apple.com/app/shia+/id1511772373">App Store</a> ù <a href="https://play.google.com/store/apps/details?id=com.karartech.shiaplus">Play Store</a>
     </td>
     <td width="50%" valign="top">
       <h3>?? Karar Tech Web</h3>
-      <p>Company portfolio & services site ó Next.js, Framer Motion, shadcn/ui.</p>
+      <p>Company portfolio & services site ù Next.js, Framer Motion, shadcn/ui.</p>
       <p>
         <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
         <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
       </p>
-      <a href="https://karartech.com">?? Live Site</a> ∑ <a href="https://github.com/karartech/karartech-web">Source</a>
+      <a href="https://karartech.com">?? Live Site</a> ù <a href="https://github.com/karartech/karartech-web">Source</a>
     </td>
   </tr>
 </table>
@@ -168,12 +168,12 @@ I'm a **full-stack developer** and founder of [**Karar Tech**](https://karartech
 ```
 ???????????????????????????????????????????????????????????????????
 ?                                                                 ?
-?   ??  Mobile Apps        React Native ∑ Expo ∑ iOS ∑ Android   ?
-?   ??  Web Platforms      Next.js ∑ React ∑ TypeScript ∑ Vite   ?
-?   ??  Backend & APIs     Node.js ∑ Supabase ∑ PostgreSQL       ?
-?   ??  UI/UX Design       Figma ∑ Tailwind ∑ shadcn/ui          ?
-?   ??  AI Integration     OpenAI ∑ Deepgram ∑ Recall.ai         ?
-?   ??  Cloud & DevOps     Vercel ∑ Cloudflare ∑ AWS ∑ Docker    ?
+?   ??  Mobile Apps        React Native ù Expo ù iOS ù Android   ?
+?   ??  Web Platforms      Next.js ù React ù TypeScript ù Vite   ?
+?   ??  Backend & APIs     Node.js ù Supabase ù PostgreSQL       ?
+?   ??  UI/UX Design       Figma ù Tailwind ù shadcn/ui          ?
+?   ??  AI Integration     OpenAI ù Deepgram ù Recall.ai         ?
+?   ??  Cloud & DevOps     Vercel ù Cloudflare ù AWS ù Docker    ?
 ?                                                                 ?
 ???????????????????????????????????????????????????????????????????
 ```
@@ -186,15 +186,15 @@ I'm a **full-stack developer** and founder of [**Karar Tech**](https://karartech
 
 <div align="center">
 
-I'm always open to collaborating on meaningful projects ó especially those that serve communities and make a real impact.
+I'm always open to collaborating on meaningful projects ù especially those that serve communities and make a real impact.
 
 <br/>
 
 <a href="https://karartech.com">
-  <img src="https://img.shields.io/badge/??_Visit_My_Website-karartech.com-6366f1?style=for-the-badge" alt="Visit website"/>
+  <img src="https://img.shields.io/badge/Visit_My_Website-karartech.com-6366f1?style=for-the-badge" alt="Visit website"/>
 </a>
-<a href="mailto:hello@karartech.com">
-  <img src="https://img.shields.io/badge/??_Get_In_Touch-hello@karartech.com-8b5cf6?style=for-the-badge" alt="Email"/>
+<a href="mailto:Haydar.AlKararLLC@gmail.com">
+  <img src="https://img.shields.io/badge/Get_In_Touch-Haydar.AlKararLLC@gmail.com-8b5cf6?style=for-the-badge" alt="Email"/>
 </a>
 
 <br/><br/>
@@ -207,7 +207,7 @@ I'm always open to collaborating on meaningful projects ó especially those that 
 
 <div align="center">
 
-*"Code is poetry ó every line should serve a purpose, every pixel should tell a story."*
+*"Code is poetry ù every line should serve a purpose, every pixel should tell a story."*
 
 <br/>
 
