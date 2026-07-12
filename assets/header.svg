@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0f">
+        <animate attributeName="stop-color" values="#0a0a0f;#0f172a;#0a0a0f" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#1e1b4b">
+        <animate attributeName="stop-color" values="#1e1b4b;#312e81;#1e1b4b" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#0f172a">
+        <animate attributeName="stop-color" values="#0f172a;#1e293b;#0f172a" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)" rx="16"/>
+
+  <!-- Animated grid -->
+  <g opacity="0.08" stroke="#6366f1" stroke-width="0.5">
+    <line x1="0" y1="40" x2="1200" y2="40"><animate attributeName="y1" values="40;320;40" dur="12s" repeatCount="indefinite"/><animate attributeName="y2" values="40;320;40" dur="12s" repeatCount="indefinite"/></line>
+    <line x1="0" y1="120" x2="1200" y2="120"><animate attributeName="opacity" values="0.3;1;0.3" dur="6s" repeatCount="indefinite"/></line>
+    <line x1="0" y1="200" x2="1200" y2="200"><animate attributeName="opacity" values="1;0.3;1" dur="6s" repeatCount="indefinite"/></line>
+    <line x1="200" y1="0" x2="200" y2="320"><animate attributeName="opacity" values="0.5;1;0.5" dur="8s" repeatCount="indefinite"/></line>
+    <line x1="600" y1="0" x2="600" y2="320"><animate attributeName="opacity" values="1;0.4;1" dur="7s" repeatCount="indefinite"/></line>
+    <line x1="1000" y1="0" x2="1000" y2="320"><animate attributeName="opacity" values="0.4;1;0.4" dur="9s" repeatCount="indefinite"/></line>
+  </g>
+
+  <!-- Floating particles -->
+  <circle cx="150" cy="80" r="2" fill="#8b5cf6" opacity="0.6"><animate attributeName="cy" values="80;60;80" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.9;0.3" dur="3s" repeatCount="indefinite"/></circle>
+  <circle cx="400" cy="200" r="1.5" fill="#06b6d4" opacity="0.5"><animate attributeName="cx" values="400;420;400" dur="5s" repeatCount="indefinite"/><animate attributeName="cy" values="200;180;200" dur="5s" repeatCount="indefinite"/></circle>
+  <circle cx="800" cy="100" r="2.5" fill="#6366f1" opacity="0.7"><animate attributeName="cy" values="100;130;100" dur="4s" repeatCount="indefinite"/></circle>
+  <circle cx="1050" cy="240" r="1.8" fill="#a78bfa" opacity="0.5"><animate attributeName="cx" values="1050;1030;1050" dur="6s" repeatCount="indefinite"/></circle>
+  <circle cx="650" cy="280" r="1.2" fill="#22d3ee" opacity="0.4"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.5s" repeatCount="indefinite"/></circle>
+
+  <!-- Scan line -->
+  <rect x="0" y="0" width="1200" height="2" fill="url(#accent)" opacity="0.3" filter="url(#softGlow)">
+    <animate attributeName="y" values="0;320;0" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Code rain columns -->
+  <g font-family="monospace" font-size="11" fill="#6366f1" opacity="0.15">
+    <text x="80" y="0"><tspan>const</tspan><animate attributeName="y" values="-20;340" dur="8s" repeatCount="indefinite"/></text>
+    <text x="280" y="0" fill="#8b5cf6"><tspan>async</tspan><animate attributeName="y" values="-40;340" dur="10s" repeatCount="indefinite"/></text>
+    <text x="520" y="0" fill="#06b6d4"><tspan>return</tspan><animate attributeName="y" values="-60;340" dur="7s" repeatCount="indefinite"/></text>
+    <text x="720" y="0" fill="#a78bfa"><tspan>import</tspan><animate attributeName="y" values="-30;340" dur="9s" repeatCount="indefinite"/></text>
+    <text x="920" y="0" fill="#22d3ee"><tspan>export</tspan><animate attributeName="y" values="-50;340" dur="11s" repeatCount="indefinite"/></text>
+    <text x="1100" y="0" fill="#6366f1"><tspan>await</tspan><animate attributeName="y" values="-10;340" dur="6s" repeatCount="indefinite"/></text>
+  </g>
+
+  <!-- Main title -->
+  <text x="600" y="130" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif" font-size="52" font-weight="700" fill="url(#accent)" filter="url(#glow)">
+    Karar Tech
+  </text>
+  <text x="600" y="175" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif" font-size="18" fill="#94a3b8" letter-spacing="4">
+    FULL-STACK · MOBILE · AI
+  </text>
+
+  <!-- Animated underline -->
+  <rect x="450" y="195" width="300" height="2" fill="url(#accent)" rx="1" opacity="0.8">
+    <animate attributeName="width" values="100;300;100" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="550;450;550" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Decorative brackets -->
+  <text x="320" y="140" font-family="monospace" font-size="48" fill="#6366f1" opacity="0.3" filter="url(#glow)">{</text>
+  <text x="850" y="140" font-family="monospace" font-size="48" fill="#06b6d4" opacity="0.3" filter="url(#glow)">}</text>
+  <animate attributeName="opacity" xlink:href="#bracket-left" values="0.2;0.5;0.2" dur="3s" repeatCount="indefinite"/>
+
+  <!-- Bottom wave -->
+  <path d="M0,280 Q300,250 600,280 T1200,280 L1200,320 L0,320 Z" fill="#6366f1" opacity="0.05">
+    <animate attributeName="d" values="M0,280 Q300,250 600,280 T1200,280 L1200,320 L0,320 Z;M0,280 Q300,310 600,280 T1200,280 L1200,320 L0,320 Z;M0,280 Q300,250 600,280 T1200,280 L1200,320 L0,320 Z" dur="5s" repeatCount="indefinite"/>
+  </path>
+</svg>
